@@ -26,7 +26,7 @@ Block Sponsor Comments is a browser extension that removes sponsors from YouTube
 
 MrBeastify is a browser extension inspired by [MrBeastify.com](http://mrbeastify.com) that adds MrBeast to every YouTube thumbnail. It’s in its final state and no longer actively developed, but it's still maintained, adding extra images each month, as well as fixing bugs caused by youtube frontend changes. It works on Chrome, Edge, and Firefox, and was built for compatibility and optimized for speed and filesize.
 
-## 🌐 Find me literally anywhere
+## Find me literally anywhere
 
 - **Website**: [magicjinn.github.io](http://magicjinn.github.io/MagicJinn/)
 - **YouTube**: [MagicJinn](http://youtube.com/@magicjinn)
@@ -39,7 +39,7 @@ MrBeastify is a browser extension inspired by [MrBeastify.com](http://mrbeastify
 - <sub>**Steam**: [MagicJinn](http://steamcommunity.com/id/MagicJinn/)</sub>
 - <sub>**Speedrun.com**: [MagicJinn](http://speedrun.com/user/MagicJinn)</sub>
 
-## 💖 Support Me
+## Support Me
 
 I have both Patreon, and a Ko-fi. Ko-fi lends itself more to one-time donations, but also supports a subscription model, and doesn't take a commission. If you are more comfortable with Patreon, that option is of course still available.
 http
@@ -47,7 +47,7 @@ http
 - **Patreon**: [MagicJinn](http://patreon.com/MagicJinn)
 - **Ko-fi**: [MagicJinn](http://ko-fi.com/magicjinn)
 
-## 📧 Contact
+## Contact
 
 - Email: [MagicJinn@mail.com](mailto:MagicJinn@mail.com)
 - Discord: @MagicJinn
