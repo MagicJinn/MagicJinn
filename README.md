@@ -4,6 +4,14 @@ Game Developer | Programmer | Game Modder
 
 Creator of **MrBeastify**, **SDLS**, and **Block-Sponsor-Comments**. I'm an aspiring full-time game developer, and I make game mods and browser extensions in my free time. I am also a YouTube content creator who specializes in producing high-effort, post-commentary videos, gameplay challenges, video essays, and detailed media analysis.
 
+## I am skilled at
+
+- Javascript (Browser extension development)
+- C#
+- Unity game development
+- Godot game development
+- Problem-solving and practical application of programming concepts
+
 ## SDLS
 
 Sunless Data Loading Simplified (SDLS) is a tool designed to streamline Sunless Sea modding. By allowing modders to omit unused fields from .json files, SDLS simplifies mod creation and enhances compatibility. It converts .sdls files to .json on startup, without modifying game files. Other features include faster loading times and future support for merging mods and adding new content without overwriting existing data. SDLS aims to help mod authors focus on the things that are really important, writing excellent stories, without being bogged down by the complexity.
