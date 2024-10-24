@@ -38,13 +38,14 @@ MrBeastify is a browser extension inspired by [MrBeastify.com](https://mrbeastif
 ## Find me literally anywhere
 
 - **Website**: [magicjinn.github.io](https://magicjinn.github.io/MagicJinn/)
+- **Itch.io**: [Itch.io](https://magicjinn.itch.io/)
+- **GitHub**: [MagicJinn](https://github.com/MagicJinn)
 - **YouTube**: [MagicJinn](https://youtube.com/@magicjinn)
 - **Twitch**: [MagicJinn](https://twitch.tv/magicjinn)
 - **Twitter**: [@MagicJinn_](https://twitter.com/MagicJinn_)
 - **Instagram**: [manderinjo](https://instagram.com/manderinjo/)
-- **Discord**: [Join my server!](https://discord.gg/bQvtauxXWp)
+- **Discord**: [MagicJinn's Realm](https://discord.gg/bQvtauxXWp)
 - **Nexusmods**: [MagicJinn](https://nexusmods.com/users/88893538)
-- **GitHub**: [MagicJinn](https://github.com/MagicJinn)
 - <sub>**Steam**: [MagicJinn](https://steamcommunity.com/id/MagicJinn/)</sub>
 - <sub>**Speedrun.com**: [MagicJinn](https://speedrun.com/user/MagicJinn)</sub>
 
