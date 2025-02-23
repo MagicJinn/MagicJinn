@@ -12,6 +12,20 @@ Aspiring game developer, basically a software dev, technically a webdev. Creator
 - Godot game development
 - Problem-solving and practical application of programming concepts
 
+## CorrespondentFix
+
+CorrespondentFix modifies the Correspondent legacy in Sunless Sea by removing discovery data from dead characters' charts while preserving layout and fog state. This fixes the noob-trap it created and makes it actually useful. Feature-complete and archived.
+
+**Language: C# Net3.5**<br>
+**Technologies: BepInEx, Unity**
+
+## AllShipsAllSlots
+
+AllShipsAllSlots is a lightweight mod that adds both Forward and AFT weapon slots to every ship in Sunless Sea. It features a user-friendly configuration file for easy customization. Made as a replacement of the original "Aft Slots for ALL" mod by being significantly smaller (just 10KB compared to the original's 70MB), configurable, compatible with both vanilla and modded ships, and game versions (Steam, Epic and GOG). Feature-complete and archived.
+
+**Language: C# Net3.5**<br>
+**Technologies: BepInEx, Unity**
+
 ## SDLS
 
 Sunless Data Loading Simplified (SDLS) is a tool designed to streamline Sunless Sea modding. By allowing modders to omit unused fields from .json files, SDLS simplifies mod creation and enhances compatibility. It converts .sdls files to .json on startup, without modifying game files. Other features include faster loading times and future support for merging mods and adding new content without overwriting existing data. SDLS aims to help mod authors focus on the things that are really important, writing excellent stories, without being bogged down by the complexity.
