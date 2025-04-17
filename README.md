@@ -13,8 +13,9 @@ Aspiring game developer, basically a software dev, technically a webdev. Creator
 - Problem-solving and practical application of programming concepts
 
 ## Minor Sunless Sea Mods
-CorrespondentFix - Improves the Correspondent legacy by removing discovery data from dead characters' charts while preserving layout and fog state. Fixes the original "noob-trap" and makes the legacy actually useful. Built with C# Net3.5, BepInEx, and Unity. Feature-complete and archived.
-AllShipsAllSlots - A lightweight (10KB) mod that adds both Forward and AFT weapon slots to every ship in Sunless Sea. Features user-friendly configuration and compatibility with vanilla and modded ships across all game versions (Steam, Epic, GOG). Serves as a more efficient replacement for the original "Aft Slots for ALL" mod. Feature-complete and archived.
+
+- **CorrespondentFix** - Improves the Correspondent legacy by removing discovery data from dead characters' charts while preserving layout and fog state. Fixes the original "noob-trap" and makes the legacy actually useful. Built with C# Net3.5, BepInEx, and Unity. Feature-complete and archived.
+- **AllShipsAllSlots** - A lightweight (10KB) mod that adds both Forward and AFT weapon slots to every ship in Sunless Sea. Features user-friendly configuration and compatibility with vanilla and modded ships across all game versions (Steam, Epic, GOG). Serves as a more efficient replacement for the original "Aft Slots for ALL" mod. Feature-complete and archived.
 
 ## SDLS
 
