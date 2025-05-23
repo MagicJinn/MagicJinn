@@ -4,6 +4,8 @@
 
 Aspiring game developer, basically a software dev, technically a webdev. Creator of **MrBeastify**, **SDLS**, and **Block-Sponsor-Comments**. I'm an aspiring full-time game developer, and I make game mods and browser extensions in my free time. 1.5 year game development school dropout because it was terrible. Check out the games I made on my [Itch.io](https://magicjinn.itch.io/). I am also a YouTube content creator.
 
+![Stats](https://github-readme-stats.vercel.app/api?username=MagicJinn&show_icons=true&count_private=true&theme=radical&hide_rank=true)
+
 ## I am skilled at
 
 - Javascript (Browser extension development)
