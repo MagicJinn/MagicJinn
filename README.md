@@ -18,12 +18,13 @@ Aspiring game developer, basically a software dev, technically a webdev. Creator
 
 - **CorrespondentFix** - Improves the Correspondent legacy by removing discovery data from dead characters' charts while preserving layout and fog state. Fixes the original "noob-trap" and makes the legacy actually useful. Built with C# Net3.5, BepInEx, and Unity. Feature-complete and archived.
 - **AllShipsAllSlots** - A lightweight (10KB) mod that adds both Forward and AFT weapon slots to every ship in Sunless Sea. Features user-friendly configuration and compatibility with vanilla and modded ships across all game versions (Steam, Epic, GOG). Serves as a more efficient replacement for the original "Aft Slots for ALL" mod. Feature-complete and archived.
+- **Legacy Yacht** - A story mod that makes the massively outclassed Steam Yacht inheritable so it's less terrible.
 
 ## SDLS
 
 Sunless Data Loading Simplified (SDLS) is a tool designed to streamline Sunless Sea modding. By allowing modders to omit unused fields from .json files, SDLS simplifies mod creation and enhances compatibility. It converts .sdls files to .json on startup, without modifying game files. Other features include faster loading times and future support for merging mods and adding new content without overwriting existing data. SDLS aims to help mod authors focus on the things that are really important, writing excellent stories, without being bogged down by the complexity.
 
-SDLS is in active development, with 1.5 bringing massive performance improvements and documentation, and 2.0 set to introduce mod merging.
+SDLS is in active development, with 1.5 bringing massive performance improvements and documentation, 1.6 and 1.7 bringing quality of life features and performance improvements to the base game, and 2.0 set to introduce mod merging.
 
 **Language: C# Net3.5**<br>
 **Technologies: BepInEx, Unity, JSON Processing, Multithreading**
