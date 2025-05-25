@@ -43,6 +43,13 @@ MrBeastify is a browser extension inspired by [MrBeastify.com](https://mrbeastif
 - **AllShipsAllSlots** - A lightweight (10KB) mod that adds both Forward and AFT weapon slots to every ship in Sunless Sea. Features user-friendly configuration and compatibility with vanilla and modded ships across all game versions (Steam, Epic, GOG). Serves as a more efficient replacement for the original "Aft Slots for ALL" mod. Feature-complete and archived.
 - **Legacy Yacht** - A story mod that makes the massively outclassed Steam Yacht inheritable so it's less terrible.
 
+## Better Pet Teleporting
+
+Better Pet Teleporting is a Minecraft mod that vastly improves pet teleportation logic so you don't lose them. It supports all pets across all dimensions, ensuring your pets can always find you, even in unloaded chunks or when crossing dimensions. It has automatic support for mods (as long as they inherit the `EntityTameable` class) and randomized teleportation to prevent entity cramming.
+
+**Language: Java**  
+**Technologies: Minecraft Modding, Forge**
+
 ## Find me literally anywhere
 
 - **Website**: [magicjinn.github.io](https://magicjinn.github.io/MagicJinn/)
