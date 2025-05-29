@@ -21,7 +21,14 @@ Sunless Data Loading Simplified (SDLS) is a tool designed to streamline Sunless 
 SDLS is in active development, with 1.5 bringing massive performance improvements and documentation, 1.6 and 1.7 bringing quality of life features and performance improvements to the base game, and 2.0 set to introduce mod merging.
 
 **Language: C# Net3.5**<br>
-**Technologies: BepInEx, Unity, JSON Processing, Multithreading**
+**Technologies: BepInEx, Unity, Harmony, JSON Processing, Multithreading**
+
+## SeaCull
+
+SeaCull is a performance optimization mod for Sunless Sea that significantly improves game performance through tile culling and frame rate optimizations, achieving performance gains of 40-70%. By dynamically managing the loading of sea tiles based on player distance, it reduces unnecessary resource usage and improves overall game responsiveness. The mod also addresses several technical issues in the base game, including the sea animation being tied to framerate and various quirks with VSync and TargetFPS settings.
+
+**Language: C# Net3.5**<br>
+**Technologies: BepInEx, Unity, Harmony**
 
 ## Block Sponsor Comments
 
