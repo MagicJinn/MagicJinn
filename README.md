@@ -45,6 +45,8 @@ MrBeastify is a browser extension inspired by [MrBeastify.com](https://mrbeastif
 
 ## Minor Sunless Sea Mods
 
+
+- **OriginalMainMenu** - Restores the original Sunless Sea main menu background and title card when Zubmariner is installed. Simple and easy to configure. Feature-complete.
 - **CorrespondentFix** - Improves the Correspondent legacy by removing discovery data from dead characters' charts while preserving layout and fog state. Fixes the original "noob-trap" and makes the legacy actually useful. Built with C# Net3.5, BepInEx, and Unity. Feature-complete.
 - **AllShipsAllSlots** - A lightweight (10KB) mod that adds both Forward and AFT weapon slots to every ship in Sunless Sea. Features user-friendly configuration and compatibility with vanilla and modded ships across all game versions (Steam, Epic, GOG). Serves as a more efficient replacement for the original "Aft Slots for ALL" mod. Feature-complete.
 - **Legacy Yacht** - A story mod that makes the massively outclassed Steam Yacht inheritable so it's less terrible.
