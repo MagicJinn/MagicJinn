@@ -1,1 +1,1 @@
-console.log("fuck grapejs");
+console.log("Fuck rapejs");
