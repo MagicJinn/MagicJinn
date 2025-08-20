@@ -2,7 +2,7 @@
 
 ### Game Developer | Programmer | Game Modder
 
-Aspiring game developer, basically a software dev, technically a webdev. Creator of **MrBeastify**, **SDLS**, and **Block-Sponsor-Comments**. I'm an aspiring full-time game developer, and I make game mods and browser extensions in my free time. 1.5 year game development school dropout because it was terrible. Check out the games I made on my [Itch.io](https://magicjinn.itch.io/). I am also a YouTube content creator.
+Aspiring game developer, basically a software dev, technically a webdev. Creator of **MrBeastify**, **SDLS**, **Block Sponsor Comments**, **Better Pet Teleporting** and **Beacon Aura**. I'm an aspiring full-time game developer, and I make game mods and browser extensions in my free time. 1.5 year game development school dropout because it was terrible. Check out the games I made on my [Itch.io](https://magicjinn.itch.io/). I am also a YouTube content creator.
 
 ![highcontrast](https://github-readme-stats.vercel.app/api?username=MagicJinn&show_icons=true&count_private=true&theme=highcontrast&hide_rank=true)
 
@@ -13,6 +13,7 @@ Aspiring game developer, basically a software dev, technically a webdev. Creator
 - Unity game development
 - Godot game development
 - **Problem-solving and practical application of programming concepts**
+
 ## SDLS
 
 Sunless Data Loading Simplified (SDLS) is a tool designed to streamline Sunless Sea modding. By allowing modders to omit unused fields from .json files, SDLS simplifies mod creation and enhances compatibility. It converts .sdls files to .json on startup, without modifying game files. Other features include faster loading times and future support for merging mods and adding new content without overwriting existing data. SDLS aims to help mod authors focus on the things that are really important, writing excellent stories, without being bogged down by the complexity.
@@ -45,7 +46,6 @@ MrBeastify is a browser extension inspired by [MrBeastify.com](https://mrbeastif
 
 ## Minor Sunless Sea Mods
 
-
 - **OriginalMainMenu** - Restores the original Sunless Sea main menu background and title card when Zubmariner is installed. Simple and easy to configure. Feature-complete.
 - **CorrespondentFix** - Improves the Correspondent legacy by removing discovery data from dead characters' charts while preserving layout and fog state. Fixes the original "noob-trap" and makes the legacy actually useful. Built with C# Net3.5, BepInEx, and Unity. Feature-complete.
 - **AllShipsAllSlots** - A lightweight (10KB) mod that adds both Forward and AFT weapon slots to every ship in Sunless Sea. Features user-friendly configuration and compatibility with vanilla and modded ships across all game versions (Steam, Epic, GOG). Serves as a more efficient replacement for the original "Aft Slots for ALL" mod. Feature-complete.
@@ -57,6 +57,13 @@ Better Pet Teleporting is a Minecraft mod that vastly improves pet teleportation
 
 **Language: Java**  
 **Technologies: Minecraft Modding, Forge**
+
+## Beacon Aura
+
+Beacon Aura improves beacons by allowing you to *soak* in the beacon's effects while within its range, extending their duration, to be enjoyed after you leave their radius. The strength of the effect buildup and the maximum duration are determined by the beacon's level. The mod also increases the beacon's range by default, as well as allowing you to configure it for yourself.
+
+**Language: Java**<br>
+**Technologies: Minecraft Modding, Fabric**
 
 ## Find me literally anywhere
 
