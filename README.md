@@ -2,7 +2,7 @@
 
 ### Game Developer | Programmer | Game Modder
 
-Aspiring game developer, basically a software dev, technically a webdev. Creator of **MrBeastify**, **SDLS**, **Block Sponsor Comments**, **Better Pet Teleporting** and **Beacon Aura**. I'm an aspiring full-time game developer, and I make game mods and browser extensions in my free time. 1.5 year game development school dropout because it was terrible. Check out the games I made on my [Itch.io](https://magicjinn.itch.io/). I am also a YouTube content creator.
+Aspiring game developer, basically a software dev, technically a webdev. Creator of **MrBeastify**, **SDLS**, **Block Sponsor Comments**, **Better Pet Teleporting**, **Beacon Aura** and **The Block Keeps Ticking**. I'm an aspiring full-time game developer, and I make game mods and browser extensions in my free time. 1.5 year game development school dropout because it was terrible. Check out the games I made on my [Itch.io](https://magicjinn.itch.io/). I am also a YouTube content creator.
 
 ![highcontrast](https://github-readme-stats.vercel.app/api?username=MagicJinn&show_icons=true&count_private=true&theme=highcontrast&hide_rank=true)
 
@@ -61,6 +61,15 @@ Better Pet Teleporting is a Minecraft mod that vastly improves pet teleportation
 ## Beacon Aura
 
 Beacon Aura improves beacons by allowing you to *soak* in the beacon's effects while within its range, extending their duration, to be enjoyed after you leave their radius. The strength of the effect buildup and the maximum duration are determined by the beacon's level. The mod also increases the beacon's range by default, as well as allowing you to configure it for yourself.
+
+**Language: Java**<br>
+**Technologies: Minecraft Modding, Fabric**
+
+## The Block Keeps Ticking
+
+The Block Keeps Ticking is a complete rewrite of Alive World (which is a fork of Presence Not Required) that allows blocks and entities to continue progressing in unloaded chunks, so your farms, furnaces, and passive mobs keep growing and working even when you're far away. The mod supports block entities (furnaces, campfires, brewing stands), crops and stems, nether wart, cocoa beans, tree saplings, growing plants (kelp, bamboo, sugar cane, cactus), and dried ghast and sniffer eggs. Features include time modes (world time or real time progression), lazy tax settings to slow down simulation, and per-object configuration to enable or disable simulation for specific blocks and entities individually. When installed on a server, players do not need to install the mod.
+
+[![Modrinth: The Block Keeps Ticking](https://img.shields.io/badge/Modrinth-The_Block_Keeps_Ticking-00ae5d?logo=modrinth)](https://modrinth.com/mod/the-block-keeps-ticking) [![CurseForge: The Block Keeps Ticking](https://img.shields.io/badge/CurseForge-The_Block_Keeps_Ticking-f16437?logo=curseforge)](https://www.curseforge.com/minecraft/mc-mods/the-block-keeps-ticking)
 
 **Language: Java**<br>
 **Technologies: Minecraft Modding, Fabric**
