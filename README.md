@@ -67,9 +67,7 @@ Beacon Aura improves beacons by allowing you to *soak* in the beacon's effects w
 
 ## The Block Keeps Ticking
 
-The Block Keeps Ticking is a complete rewrite of Alive World (which is a fork of Presence Not Required) that allows blocks and entities to continue progressing in unloaded chunks, so your farms, furnaces, and passive mobs keep growing and working even when you're far away. The mod supports block entities (furnaces, campfires, brewing stands), crops and stems, nether wart, cocoa beans, tree saplings, growing plants (kelp, bamboo, sugar cane, cactus), and dried ghast and sniffer eggs. Features include time modes (world time or real time progression), lazy tax settings to slow down simulation, and per-object configuration to enable or disable simulation for specific blocks and entities individually. When installed on a server, players do not need to install the mod.
-
-[![Modrinth: The Block Keeps Ticking](https://img.shields.io/badge/Modrinth-The_Block_Keeps_Ticking-00ae5d?logo=modrinth)](https://modrinth.com/mod/the-block-keeps-ticking) [![CurseForge: The Block Keeps Ticking](https://img.shields.io/badge/CurseForge-The_Block_Keeps_Ticking-f16437?logo=curseforge)](https://www.curseforge.com/minecraft/mc-mods/the-block-keeps-ticking)
+The Block Keeps Ticking is a complete rewrite of Alive World (which is a fork of Presence Not Required) that allows blocks and entities to continue progressing in unloaded chunks, so your farms, furnaces, and passive mobs keep growing and working even when you're far away. The mod supports block entities (furnaces, campfires, brewing stands), crops and stems, nether wart, cocoa beans, tree saplings, growing plants (kelp, bamboo, sugar cane, cactus), and dried ghast and sniffer eggs. Features include time modes (world time or real time progression), lazy tax settings to slow down simulation, and per-object configuration to enable or disable simulation for specific blocks and entities individually.
 
 **Language: Java**<br>
 **Technologies: Minecraft Modding, Fabric**
