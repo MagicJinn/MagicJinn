@@ -166,6 +166,17 @@ main {
     border-color: rgba(255, 255, 255, 0.2);
 }
 
+.project-card:not(.feature-complete) {
+    border-color: rgba(156, 39, 176, 0.8);
+    border-left: 8px solid #9c27b0;
+    background: rgba(76, 39, 176, 0.08);
+}
+
+.project-card:not(.feature-complete):hover {
+    background: rgba(39, 53, 176, 0.12);
+    border-color: rgb(98, 39, 176);
+}
+
 .project-card.feature-complete {
     border-color: rgba(76, 175, 80, 0.8);
     border-left: 8px solid #4caf50;
