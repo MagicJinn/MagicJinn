@@ -72,6 +72,10 @@ The Block Keeps Ticking is a complete rewrite of Alive World (which is a fork of
 **Language: Java**<br>
 **Technologies: Minecraft Modding, Fabric**
 
+## Minor Minecraft Mods
+
+- **Portalfarm Despawn Fix** - A micro-mod for Fabric that fixes a common issue where mobs transported through nether portals on multiplayer servers would immediately despawn when there are players in the destination dimension. This mod prevents mobs from despawning in portal farms by setting an upper bound to the despawning check. It is named this because it fixes a mechanic most commonly seen when using portal based farms. Feature-complete.
+
 ## Find me literally anywhere
 
 - **Website**: [magicjinn.github.io](https://magicjinn.github.io/MagicJinn/)
