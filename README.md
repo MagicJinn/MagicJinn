@@ -20,14 +20,14 @@ Sunless Data Loading Simplified (SDLS) is a tool designed to streamline Sunless 
 
 SDLS is in active development, with 1.5 bringing massive performance improvements and documentation, 1.6 to 1.9 bringing quality of life features and performance improvements to the base game, and 2.0 set to introduce mod merging.
 
-**Language: C# Net3.5**<br>
+**Language: C# .Net3.5**<br>
 **Technologies: BepInEx, Unity, Harmony, JSON Processing, Multithreading**
 
 ## SeaCull
 
 SeaCull is a performance optimization mod for Sunless Sea that significantly improves game performance through tile culling and frame rate optimizations, achieving performance gains of 40-70%. By dynamically managing the loading of sea tiles based on player distance, it reduces unnecessary resource usage and improves overall game responsiveness. The mod also addresses several technical issues in the base game, including the sea animation being tied to framerate and various quirks with VSync and TargetFPS settings.
 
-**Language: C# Net3.5**<br>
+**Language: C# .Net3.5**<br>
 **Technologies: BepInEx, Unity, Harmony**
 
 ## Block Sponsor Comments
@@ -47,7 +47,7 @@ MrBeastify is a browser extension inspired by [MrBeastify.com](https://mrbeastif
 ## Minor Sunless Sea Mods
 
 - **OriginalMainMenu** - Restores the original Sunless Sea main menu background and title card when Zubmariner is installed. Simple and easy to configure. Feature-complete.
-- **CorrespondentFix** - Improves the Correspondent legacy by removing discovery data from dead characters' charts while preserving layout and fog state. Fixes the original "noob-trap" and makes the legacy actually useful. Built with C# Net3.5, BepInEx, and Unity. Feature-complete.
+- **CorrespondentFix** - Improves the Correspondent legacy by removing discovery data from dead characters' charts while preserving layout and fog state. Fixes the original "noob-trap" and makes the legacy actually useful. Feature-complete.
 - **AllShipsAllSlots** - A lightweight (10KB) mod that adds both Forward and AFT weapon slots to every ship in Sunless Sea. Features user-friendly configuration and compatibility with vanilla and modded ships across all game versions (Steam, Epic, GOG). Serves as a more efficient replacement for the original "Aft Slots for ALL" mod. Feature-complete.
 - **Legacy Yacht** - A story mod that makes the massively outclassed Steam Yacht inheritable so it's less terrible. Feature-complete.
 
