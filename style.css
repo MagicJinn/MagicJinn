@@ -139,7 +139,7 @@ main {
 
 .skills-list li {
     font-size: clamp(16px, 2vw, 18px);
-    padding: 10px 0;
+    padding: 5px 0;
     padding-left: 30px;
     position: relative;
     color: #d0d0d0;
