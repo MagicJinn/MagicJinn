@@ -174,7 +174,7 @@ main {
 
 .project-card:not(.feature-complete):hover {
     background: rgba(39, 53, 176, 0.12);
-    border-color: rgb(98, 39, 176);
+    border-color: rgb(175, 30, 211);
 }
 
 .project-card.feature-complete {
