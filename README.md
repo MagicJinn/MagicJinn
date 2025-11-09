@@ -18,7 +18,7 @@ Aspiring game developer, basically a software dev, technically a webdev. Creator
 
 Sunless Data Loading Simplified (SDLS) is a tool designed to streamline Sunless Sea modding. By allowing modders to omit unused fields from .json files, SDLS simplifies mod creation and enhances compatibility. It converts .sdls files to .json on startup, without modifying game files. Other features include faster loading times and future support for merging mods and adding new content without overwriting existing data. SDLS aims to help mod authors focus on the things that are really important, writing excellent stories, without being bogged down by the complexity.
 
-SDLS is in active development, with 1.5 bringing massive performance improvements and documentation, 1.6 and 1.7 bringing quality of life features and performance improvements to the base game, and 2.0 set to introduce mod merging.
+SDLS is in active development, with 1.5 bringing massive performance improvements and documentation, 1.6 to 1.9 bringing quality of life features and performance improvements to the base game, and 2.0 set to introduce mod merging.
 
 **Language: C# Net3.5**<br>
 **Technologies: BepInEx, Unity, Harmony, JSON Processing, Multithreading**
@@ -39,7 +39,7 @@ Block Sponsor Comments is a browser extension that removes sponsors from YouTube
 
 ## MrBeastify
 
-MrBeastify is a browser extension inspired by [MrBeastify.com](https://mrbeastify.com) that adds MrBeast to every YouTube thumbnail. It’s in its final state and no longer actively developed, but it's still maintained, adding extra images each month, as well as fixing bugs caused by youtube frontend changes. It works on Chrome, Edge, and Firefox, and was built for compatibility and optimized for speed and filesize.
+MrBeastify is a browser extension inspired by [MrBeastify.com](https://mrbeastify.com) that adds MrBeast to every YouTube thumbnail. It's feature-complete and no longer actively developed, but it's still maintained, adding extra images each month, as well as fixing bugs caused by youtube frontend changes. It works on Chrome, Edge, and Firefox, and was built for compatibility and optimized for speed and filesize.
 
 **Language: Javascript**<br>
 **Technologies: Browser Extensions**
@@ -49,18 +49,18 @@ MrBeastify is a browser extension inspired by [MrBeastify.com](https://mrbeastif
 - **OriginalMainMenu** - Restores the original Sunless Sea main menu background and title card when Zubmariner is installed. Simple and easy to configure. Feature-complete.
 - **CorrespondentFix** - Improves the Correspondent legacy by removing discovery data from dead characters' charts while preserving layout and fog state. Fixes the original "noob-trap" and makes the legacy actually useful. Built with C# Net3.5, BepInEx, and Unity. Feature-complete.
 - **AllShipsAllSlots** - A lightweight (10KB) mod that adds both Forward and AFT weapon slots to every ship in Sunless Sea. Features user-friendly configuration and compatibility with vanilla and modded ships across all game versions (Steam, Epic, GOG). Serves as a more efficient replacement for the original "Aft Slots for ALL" mod. Feature-complete.
-- **Legacy Yacht** - A story mod that makes the massively outclassed Steam Yacht inheritable so it's less terrible.
+- **Legacy Yacht** - A story mod that makes the massively outclassed Steam Yacht inheritable so it's less terrible. Feature-complete.
 
 ## Better Pet Teleporting
 
-Better Pet Teleporting is a Minecraft mod that vastly improves pet teleportation logic so you don't lose them. It supports all pets across all dimensions, ensuring your pets can always find you, even in unloaded chunks or when crossing dimensions. It has automatic support for mods (as long as they inherit the `EntityTameable` class) and randomized teleportation to prevent entity cramming.
+Better Pet Teleporting is a Minecraft mod that vastly improves pet teleportation logic so you don't lose them. It supports all pets across all dimensions, ensuring your pets can always find you, even in unloaded chunks or when crossing dimensions. It has automatic support for mods (as long as they inherit the `EntityTameable` class) and randomized teleportation to prevent entity cramming. Feature-complete.
 
 **Language: Java**  
 **Technologies: Minecraft Modding, Forge**
 
 ## Beacon Aura
 
-Beacon Aura improves beacons by allowing you to *soak* in the beacon's effects while within its range, extending their duration, to be enjoyed after you leave their radius. The strength of the effect buildup and the maximum duration are determined by the beacon's level. The mod also increases the beacon's range by default, as well as allowing you to configure it for yourself.
+Beacon Aura improves beacons by allowing you to *soak* in the beacon's effects while within its range, extending their duration, to be enjoyed after you leave their radius. The strength of the effect buildup and the maximum duration are determined by the beacon's level. The mod also increases the beacon's range by default, as well as allowing you to configure it for yourself. Feature-complete.
 
 **Language: Java**<br>
 **Technologies: Minecraft Modding, Fabric**
