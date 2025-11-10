@@ -101,5 +101,5 @@ I have both Patreon, and a Ko-fi. Ko-fi lends itself more to one-time donations,
 
 ## Contact
 
-- Email: [MagicJinn@mail.com](mailto:MagicJinn@mail.com)
+- Email: [MagicJinn@MagicJinn.net](mailto:MagicJinn@MagicJinn.net)
 - Discord: @MagicJinn

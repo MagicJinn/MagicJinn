@@ -7,6 +7,7 @@
     <title>MagicJinn</title>
     <link rel="preload" as="image" href="assets/yoshlowqual.webp">
     <link rel="preload" as="image" href="assets/catglitch.webp">
+    <!-- No catflip preload because it only loads on hover, giving it enough time -->
     <link rel="stylesheet" href="style.css">
     <script src="script.js"> </script>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
@@ -14,9 +15,12 @@
 
 <body>
     <div id="bannerDIV">
-        <img id="bannerBG" src="assets/yoshsharpen.jpg">
+        <img id="bannerBG" src="assets/yoshlowqual.webp">
         <div id="bannerCONTENT">
-            <img id="bannerICON" src="assets/catglitch.webp">
+            <div id="bannerICON-container">
+                <img class="active" id="bannerICON-active" src="assets/catflip.webp">
+                <img class="static" id="bannerICON" src="assets/catglitch.webp">
+            </div>
             <div id="bannerTEXT">MagicJinn</div>
         </div>
         <nav class="banner-nav">
@@ -155,7 +159,7 @@
         <section id="contact" class="content-section">
             <h2>Contact</h2>
             <ul class="contact-list">
-                <li>Email: <a href="mailto:MagicJinn@mail.com">MagicJinn@mail.com</a></li>
+                <li>Email: <a href="mailto:MagicJinn@MagicJinn.net">MagicJinn@MagicJinn.net</a></li>
                 <li>Discord: @MagicJinn</li>
             </ul>
         </section>
