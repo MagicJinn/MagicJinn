@@ -2,7 +2,7 @@
 
 ### Game Developer | Programmer | Game Modder
 
-Aspiring game developer, basically a software dev, technically a webdev. Creator of **MrBeastify**, **SDLS**, **Block Sponsor Comments**, **Better Pet Teleporting**, **Beacon Aura** and **The Block Keeps Ticking**. I'm an aspiring full-time game developer, and I make game mods and browser extensions in my free time. 1.5 year game development school dropout because it was terrible. Check out the games I made on my [Itch.io](https://magicjinn.itch.io/). I am also a YouTube content creator.
+Aspiring game developer, basically a software dev, technically a webdev. Creator of **MrBeastify**, **SDLS**, **Better Pet Teleporting**, **Beacon Aura**, **The Block Keeps Ticking** and **Quantum Things**. I'm an aspiring full-time game developer, and I make game mods and browser extensions in my free time. 1.5 year game development school dropout because it was terrible. Check out the games I made on my [Itch.io](https://magicjinn.itch.io/). I am also a YouTube content creator.
 
 ![highcontrast](https://github-readme-stats.vercel.app/api?username=MagicJinn&show_icons=true&count_private=true&theme=highcontrast&hide_rank=true)
 
@@ -71,6 +71,13 @@ The Block Keeps Ticking is a complete rewrite of Alive World (which is a fork of
 
 **Language: Java**<br>
 **Technologies: Minecraft Modding, Fabric**
+
+## Quantum Things
+
+Quantum Things is a 1.12.2 continuation of Lumien231's Random Things. Quantum Things adds numerous new features including an ingame config menu, configurable Divining Rods with support for multiple mods (NetherEnding Ores, Silent's Gems, Galacticraft, Advent of Ascension, Aether, DivineRPG, and more), a Quartz Divining Rod, Thermal Expansion Insolator support for Spectre Saplings, and Bonsai Trees compatibility for Fertilized Dirt. It also fixed many critical bugs including item duplication exploits, anvil crafting issues, Spectre dimension teleportation problems, Spectre Illuminator bugs, crashes with Redstone Interfaces and Block Breakers, and numerous other stability and performance improvements. The mod maintains near full compatibility with the original Random Things and tries to stay true to the original design philosophy..
+
+**Language: Java**<br>
+**Technologies: Minecraft Modding, Forge**
 
 ## Minor Minecraft Mods
 
