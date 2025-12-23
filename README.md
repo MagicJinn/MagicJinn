@@ -74,7 +74,11 @@ The Block Keeps Ticking is a complete rewrite of Alive World (which is a fork of
 
 ## Quantum Things
 
-Quantum Things is a 1.12.2 continuation of Lumien231's Random Things. Quantum Things adds numerous new features including an ingame config menu, configurable Divining Rods with support for multiple mods (NetherEnding Ores, Silent's Gems, Galacticraft, Advent of Ascension, Aether, DivineRPG, and more), a Quartz Divining Rod, Thermal Expansion Insolator support for Spectre Saplings, and Bonsai Trees compatibility for Fertilized Dirt. It also fixed many critical bugs including item duplication exploits, anvil crafting issues, Spectre dimension teleportation problems, Spectre Illuminator bugs, crashes with Redstone Interfaces and Block Breakers, and numerous other stability and performance improvements. The mod maintains near full compatibility with the original Random Things and tries to stay true to the original design philosophy..
+Quantum Things is a 1.12.2 continuation of Lumien231's Random Things, a mod that adds a diverse collection of utility items, blocks, and gameplay enhancements. The goal of Quantum Things is to provide continued support for Random Things, including new features, bug and crash fixes, and compatibility with other mods, while staying true to the original design goal and intent of the mod.
+
+Quantum Things introduces extensive configurability through an in-game config menu, allowing players to customize various aspects of the mod including plant and loot generation chances, Nature Core behavior, disabling the Spectre Dimension, and adding new or disabling existing Divining Rods, with over 100 new Divining Rods added by default. It also reintroduces several features from earlier versions of Random Things, such as Spectre Armor and Biome Painter.
+
+Beyond new features, Quantum Things addresses numerous critical bugs and performance issues from the original mod, including item duplication exploits, game freezes, various crash fixes, and significant performance optimizations for systems like the Spectre Illuminator and Potion Vaporizer. The mod maintains full compatibility with the original Random Things while providing a more stable and configurable experience.
 
 **Language: Java**<br>
 **Technologies: Minecraft Modding, Forge**
@@ -101,9 +105,8 @@ Quantum Things is a 1.12.2 continuation of Lumien231's Random Things. Quantum Th
 
 ## Support Me
 
-I have both Patreon, and a Ko-fi. Ko-fi lends itself more to one-time donations, but also supports a subscription model, and doesn't take a commission. If you are more comfortable with Patreon, that option is of course still available.
+I have a Ko-fi. Ko-fi lends itself more to one-time donations, but also supports a subscription model, and doesn't take a commission. While donations are always appreciated, they are in no way required. I will always continue to try and make awesome stuff, regardless of whether or not I get paid.
 
-- **Patreon**: [MagicJinn](https://patreon.com/MagicJinn)
 - **Ko-fi**: [MagicJinn](https://ko-fi.com/magicjinn)
 
 ## Contact
