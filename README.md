@@ -56,7 +56,7 @@ Beacon Aura improves beacons by allowing you to *soak* in the beacon's effects w
 
 ## The Block Keeps Ticking
 
-The Block Keeps Ticking is a complete rewrite of Alive World (which is a fork of Presence Not Required) that allows blocks and entities to continue progressing in unloaded chunks, so your farms, furnaces, and passive mobs keep growing and working even when you're far away. The mod supports block entities (furnaces, campfires, brewing stands), crops and stems, nether wart, cocoa beans, tree saplings, growing plants (kelp, bamboo, sugar cane, cactus), and dried ghast and sniffer eggs. Features include time modes (world time or real time progression), lazy tax settings to slow down simulation, and per-object configuration to enable or disable simulation for specific blocks and entities individually.
+The Block Keeps Ticking is a complete rewrite of Alive World (which is a fork of Presence Not Required) that allows blocks and entities to continue progressing in unloaded chunks, so your farms, furnaces, and passive mobs keep growing and working even when you're far away. The mod supports block entities (furnaces, campfires, brewing stands), crops and stems, nether wart, cocoa beans, tree saplings, growing plants (kelp, bamboo, sugar cane, cactus), dried ghast and sniffer eggs and more. Features include time modes (world time or real time progression), lazy tax settings to slow down simulation, and per-object configuration to enable or disable simulation for specific blocks and entities individually.
 
 **Language: Java**<br>
 **Technologies: Minecraft Modding, Fabric**
@@ -72,13 +72,13 @@ Beyond new features, Quantum Things addresses numerous critical bugs and perform
 **Language: Java**<br>
 **Technologies: Minecraft Modding, Forge**
 
-## Minor Projects
-
-- **Block Sponsor Comments** - A browser extension that removes sponsors from YouTube video descriptions and comments using simple string matching. The extension is feature-complete but still receives updates as I add new strings to the blocklist.
-
 ## Minor Minecraft Mods
 
 - **Portalfarm Despawn Fix** - A micro-mod for Fabric that fixes a common issue where mobs transported through nether portals on multiplayer servers would immediately despawn when there are players in the destination dimension. This mod prevents mobs from despawning in portal farms by setting an upper bound to the despawning check. It is named this because it fixes a mechanic most commonly seen when using portal based farms. Feature-complete.
+
+## Minor Projects
+
+- **Block Sponsor Comments** - A browser extension that removes sponsors from YouTube video descriptions and comments using simple string matching. The extension is feature-complete but still receives updates as I add new strings to the blocklist.
 
 ## Find me literally anywhere
 
