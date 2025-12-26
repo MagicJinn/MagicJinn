@@ -12,6 +12,7 @@ Aspiring game developer, basically a software dev, technically a webdev. Creator
 - C#
 - Unity game development
 - Godot game development
+- Minecraft mod development
 - **Problem-solving and practical application of programming concepts**
 
 ## SDLS
@@ -23,19 +24,6 @@ SDLS is in active development, with 1.5 bringing massive performance improvement
 **Language: C# .Net3.5**<br>
 **Technologies: BepInEx, Unity, Harmony, JSON Processing, Multithreading**
 
-## SeaCull
-
-SeaCull is a performance optimization mod for Sunless Sea that significantly improves game performance through tile culling and frame rate optimizations, achieving performance gains of 40-70%. By dynamically managing the loading of sea tiles based on player distance, it reduces unnecessary resource usage and improves overall game responsiveness. The mod also addresses several technical issues in the base game, including the sea animation being tied to framerate and various quirks with VSync and TargetFPS settings.
-
-**Language: C# .Net3.5**<br>
-**Technologies: BepInEx, Unity, Harmony**
-
-## Block Sponsor Comments
-
-Block Sponsor Comments is a browser extension that removes sponsors from YouTube video descriptions and comments using simple string matching. The extension is feature-complete but still receives updates as I add new strings to the blocklist.
-
-**Language: Javascript**<br>
-**Technologies: Browser Extensions**
 
 ## MrBeastify
 
@@ -46,6 +34,7 @@ MrBeastify is a browser extension inspired by [MrBeastify.com](https://mrbeastif
 
 ## Minor Sunless Sea Mods
 
+- **SeaCull** - A performance optimization mod for Sunless Sea that significantly improves game performance through tile culling and frame rate optimizations, achieving performance gains of 40-70%. By dynamically managing the loading of sea tiles based on player distance, it reduces unnecessary resource usage and improves overall game responsiveness. The mod also addresses several technical issues in the base game, including the sea animation being tied to framerate and various quirks with VSync and TargetFPS settings. Feature-complete.
 - **OriginalMainMenu** - Restores the original Sunless Sea main menu background and title card when Zubmariner is installed. Simple and easy to configure. Feature-complete.
 - **CorrespondentFix** - Improves the Correspondent legacy by removing discovery data from dead characters' charts while preserving layout and fog state. Fixes the original "noob-trap" and makes the legacy actually useful. Feature-complete.
 - **AllShipsAllSlots** - A lightweight (10KB) mod that adds both Forward and AFT weapon slots to every ship in Sunless Sea. Features user-friendly configuration and compatibility with vanilla and modded ships across all game versions (Steam, Epic, GOG). Serves as a more efficient replacement for the original "Aft Slots for ALL" mod. Feature-complete.
@@ -82,6 +71,10 @@ Beyond new features, Quantum Things addresses numerous critical bugs and perform
 
 **Language: Java**<br>
 **Technologies: Minecraft Modding, Forge**
+
+## Minor Projects
+
+- **Block Sponsor Comments** - A browser extension that removes sponsors from YouTube video descriptions and comments using simple string matching. The extension is feature-complete but still receives updates as I add new strings to the blocklist.
 
 ## Minor Minecraft Mods
 
