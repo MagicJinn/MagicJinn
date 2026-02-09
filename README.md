@@ -56,7 +56,7 @@ Beacon Aura improves beacons by allowing you to *soak* in the beacon's effects w
 
 ## The Block Keeps Ticking
 
-The Block Keeps Ticking is a complete rewrite of Alive World (which is a fork of Presence Not Required) that allows blocks and entities to continue progressing in unloaded chunks, so your farms, furnaces, and passive mobs keep growing and working even when you're far away. The mod supports block entities (furnaces, campfires, brewing stands), crops and stems, nether wart, cocoa beans, tree saplings, growing plants (kelp, bamboo, sugar cane, cactus), dried ghast and sniffer eggs and more. Features include time modes (world time or real time progression), lazy tax settings to slow down simulation, and per-object configuration to enable or disable simulation for specific blocks and entities individually.
+The Block Keeps Ticking is a complete rewrite of Alive World (which is a fork of Presence Not Required) that allows blocks and entities to continue progressing in unloaded chunks, so your farms, furnaces, and passive mobs keep growing and working even when you're far away. The mod supports block entities (furnaces, campfires, brewing stands), crops and stems, nether wart, cocoa beans, tree saplings, growing plants (kelp, bamboo, sugar cane, cactus), dried ghast and sniffer eggs and more. Features include time modes (world time or real time progression), lazy tax settings to slow down simulation, and per-object configuration to enable or disable simulation for specific blocks and entities individually. The mod is completely serverside, so vanilla clients can still play while the mod is installed. Other mods can register custom ticking objects via the API.
 
 **Language: Java**<br>
 **Technologies: Minecraft Modding, Fabric**
@@ -67,7 +67,7 @@ Quantum Things is a 1.12.2 continuation of Lumien231's Random Things, a mod that
 
 Quantum Things introduces extensive configurability through an in-game config menu, allowing players to customize various aspects of the mod including plant and loot generation chances, Nature Core behavior, disabling the Spectre Dimension, and adding new or disabling existing Divining Rods, with over 100 new Divining Rods added by default. It also reintroduces several features from earlier versions of Random Things, such as Spectre Armor and Biome Painter.
 
-Beyond new features, Quantum Things addresses numerous critical bugs and performance issues from the original mod, including item duplication exploits, game freezes, various crash fixes, and significant performance optimizations for systems like the Spectre Illuminator and Potion Vaporizer. The mod maintains full compatibility with the original Random Things while providing a more stable and configurable experience.
+Beyond new features, Quantum Things addresses numerous critical bugs and performance issues from the original mod, including item duplication exploits, game freezes, various crash fixes, and significant performance optimizations for systems like the Spectre Illuminator, Wireless Redstone, network messages, and Potion Vaporizer. The mod maintains full compatibility with the original Random Things while providing a more stable and configurable experience.
 
 **Language: Java**<br>
 **Technologies: Minecraft Modding, Forge**
