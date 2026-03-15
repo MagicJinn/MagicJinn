@@ -24,7 +24,6 @@ SDLS is in active development, with 1.5 bringing massive performance improvement
 **Language: C# .Net3.5**<br>
 **Technologies: BepInEx, Unity, Harmony, JSON Processing, Multithreading**
 
-
 ## MrBeastify
 
 MrBeastify is a browser extension inspired by [MrBeastify.com](https://mrbeastify.com) that adds MrBeast to every YouTube thumbnail. It's feature-complete and no longer actively developed, but it's still maintained, adding extra images each month, as well as fixing bugs caused by youtube frontend changes. It works on Chrome, Edge, and Firefox, and was built for compatibility and optimized for speed and filesize.
@@ -39,7 +38,7 @@ Silly indie platformer made in 3 days for **SpeedJam #4** with a team of 4. I di
 **Language: GDScript (Godot)**  
 **Role: Developer (gameplay, systems)**  
 **Technologies: Godot**
-**Play on** [Itch.io](https://magicjinn.itch.io/no-verflow)
+[**Itch.io**](https://magicjinn.itch.io/no-verflow)
 
 ## As Per My Last Card
 
@@ -48,7 +47,7 @@ Card game about corporate warfare. Small startup vs. massive corporation. Made f
 **Language: C# (Unity)**  
 **Role: Developer (gameplay, UI, logic)**  
 **Technologies: Unity**
-**Play on** [Itch.io](https://ahawarrior1.itch.io/as-per-my-last-card)
+[**Itch.io**](https://ahawarrior1.itch.io/as-per-my-last-card)
 
 ## Minor Sunless Sea Mods
 
