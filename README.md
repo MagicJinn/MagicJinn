@@ -106,6 +106,7 @@ Beyond new features, Quantum Things addresses numerous critical bugs and perform
 - **YouTube**: [MagicJinn](https://youtube.com/@magicjinn)
 - **Twitch**: [MagicJinn](https://twitch.tv/magicjinn)
 - **Twitter**: [@MagicJinn__](https://x.com/MagicJinn__)
+- **LinkedIn**: [Marijn Bogerd](https://www.linkedin.com/in/marijn-bogerd-93bb0a2a4/)
 - **Instagram**: [manderinjo](https://instagram.com/manderinjo/)
 - **Discord**: [MagicJinn's Realm](https://discord.gg/bQvtauxXWp)
 - **Nexusmods**: [MagicJinn](https://nexusmods.com/users/88893538)
