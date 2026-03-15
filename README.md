@@ -2,7 +2,7 @@
 
 ### Game Developer | Programmer | Game Modder
 
-Aspiring game developer, basically a software dev, technically a webdev. Creator of **MrBeastify**, **SDLS**, **Better Pet Teleporting**, **Beacon Aura**, **The Block Keeps Ticking** and **Quantum Things**. I'm an aspiring full-time game developer, and I make game mods and browser extensions in my free time. 1.5 year game development school dropout because it was terrible. Check out the games I made on my [Itch.io](https://magicjinn.itch.io/). I am also a YouTube content creator.
+Aspiring game developer, basically a software dev, technically a webdev. Creator of **MrBeastify**, **SDLS**, **Beacon Aura**, **The Block Keeps Ticking** and **Quantum Things**. I'm an aspiring full-time game developer, and I make game mods and browser extensions in my free time. 1.5 year game development school dropout because it was terrible. Check out the games I made on my [Itch.io](https://magicjinn.itch.io/). I am also a YouTube content creator.
 
 ![highcontrast](https://github-readme-stats.vercel.app/api?username=MagicJinn&show_icons=true&count_private=true&theme=highcontrast&hide_rank=true)
 
@@ -31,6 +31,24 @@ MrBeastify is a browser extension inspired by [MrBeastify.com](https://mrbeastif
 
 **Language: Javascript**<br>
 **Technologies: Browser Extensions**
+
+## NO-verflow
+
+Silly indie platformer made in 3 days for **SpeedJam #4** with a team of 4. I did **development** together with AhaUser1, implementing gameplay, controls and levels. You play as a gremlin-like demon in a collapsing simulation where bits are overflowing; the goal is to escape and fix it. Art by Dr. Duskbunny, music/sfx by Aenjo.
+
+**Language: GDScript (Godot)**  
+**Role: Developer (gameplay, systems)**  
+**Technologies: Godot**
+**Play on** [Itch.io](https://magicjinn.itch.io/no-verflow)
+
+## As Per My Last Card
+
+Card game about corporate warfare. Small startup vs. massive corporation. Made for the **1 bit game jam** (theme: Capitalism). I did **development** with AhaUser1 (who also did the artwork). The corporation plays a card each turn, you try to survive as long as possible. Music by DELLTAmusic.
+
+**Language: C# (Unity)**  
+**Role: Developer (gameplay, UI, logic)**  
+**Technologies: Unity**
+**Play on** [Itch.io](https://ahawarrior1.itch.io/as-per-my-last-card)
 
 ## Minor Sunless Sea Mods
 
