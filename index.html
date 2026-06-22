@@ -80,7 +80,7 @@
                 <strong>MrBeastify</strong>, <strong>SDLS</strong>, <strong>NO-verflow</strong>, <strong>As Per My Last
                     Card</strong>,
                 <strong>Better Pet Teleporting</strong>, <strong>Beacon Aura</strong>, <strong>The Block Keeps
-                    Ticking</strong> and <strong>Quantum
+                    Ticking</strong>, <strong>Chronos Backups</strong> and <strong>Quantum
                     Things</strong>. I'm an aspiring full-time game developer, and I make game mods and browser
                 extensions in my free time. 1.5 year game development school dropout because it was terrible. Check out
                 the games I made on my <a href="https://magicjinn.itch.io/" target="_blank">Itch.io</a>. I am also a
@@ -246,6 +246,40 @@
                     <strong><a href="https://modrinth.com/mod/the-block-keeps-ticking"
                             target="_blank">Modrinth</a></strong>, <strong><a
                             href="https://www.curseforge.com/minecraft/mc-mods/the-block-keeps-ticking"
+                            target="_blank">Curseforge</a></strong>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <h3>Chronos Backups</h3>
+                <p>Chronos Backups is a multi-loader, multi-version Minecraft backup utility that keeps your world safe
+                    without filling your disk. Instead of copying every chunk file verbatim, it intelligently prunes
+                    backups to include only the most important parts of your world, dramatically reducing backup size
+                    while preserving the areas that actually matter. It supports Fabric, NeoForge, and Forge across an
+                    enormous version range, from 1.7.x all the way through the latest releases, making it one of the
+                    most broadly compatible backup solutions available for Minecraft servers.</p>
+                <p>Backups can be triggered manually or run on a schedule, all managed through the in-game
+                    <code>/chronos</code> command. You get full control over when backups run, how many are retained,
+                    and what gets excluded: a configurable file copy blacklist lets you skip server logs, cache folders,
+                    and other non-essential data, prefilled with sensible defaults for common server setups. Compression
+                    can be set to zip or none, and automatic pruning removes the oldest backups once you exceed your
+                    configured limit.</p>
+                <p>At the heart of Chronos is a custom Rust-native chunk pruning library, built for speed using MCA
+                    parsing and NBT processing. Chunks that haven't been played in long enough can be excluded from
+                    snapshots based on configurable playtime thresholds, which is how backups stay so small. This does
+                    come with a trade-off: very recently explored chunks that haven't yet aged past the pruning threshold
+                    may be absent from a given snapshot, a situation that is extremely rare in practice and can only
+                    cause loss on restore, never duplication.</p>
+                <p>Chronos is in active development, with nightly builds on GitHub and stable releases on Modrinth and
+                    CurseForge. Configuration is handled through a <code>chronos.toml</code> file in your config folder,
+                    covering backup intervals, pruning behavior, compression, permissions, and more.</p>
+                <div class="project-tech">
+                    <strong>Language:</strong> Java, Rust<br>
+                    <strong>Technologies:</strong> Minecraft Modding, Fabric, NeoForge, Forge, Native Rust FFI<br>
+                    <strong><a href="https://github.com/MagicJinn/Chronos-Backups"
+                            target="_blank">GitHub</a></strong>, <strong><a
+                            href="https://modrinth.com/mod/chronos-backups" target="_blank">Modrinth</a></strong>,
+                    <strong><a href="https://www.curseforge.com/minecraft/mc-mods/chronos-backups"
                             target="_blank">Curseforge</a></strong>
                 </div>
             </article>

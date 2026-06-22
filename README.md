@@ -2,7 +2,7 @@
 
 ### Game Developer | Programmer | Game Modder
 
-Aspiring game developer, basically a software dev, technically a webdev. Creator of **MrBeastify**, **SDLS**, **Beacon Aura**, **The Block Keeps Ticking** and **Quantum Things**. I'm an aspiring full-time game developer, and I make game mods and browser extensions in my free time. 1.5 year game development school dropout because it was terrible. Check out the games I made on my [Itch.io](https://magicjinn.itch.io/). I am also a YouTube content creator.
+Aspiring game developer, basically a software dev, technically a webdev. Creator of **MrBeastify**, **SDLS**, **Beacon Aura**, **The Block Keeps Ticking**, **Chronos Backups** and **Quantum Things**. I'm an aspiring full-time game developer, and I make game mods and browser extensions in my free time. 1.5 year game development school dropout because it was terrible. Check out the games I made on my [Itch.io](https://magicjinn.itch.io/). I am also a YouTube content creator.
 
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=MagicJinn&show_icons=true&count_private=true&theme=highcontrast&hide_rank=true)
 
@@ -71,6 +71,20 @@ The Block Keeps Ticking is a complete rewrite of Alive World (which is a fork of
 **Language: Java**<br>
 **Technologies: Minecraft Modding, Fabric**<br>
 [**Modrinth**](https://modrinth.com/mod/the-block-keeps-ticking), [**Curseforge**](https://www.curseforge.com/minecraft/mc-mods/the-block-keeps-ticking)
+
+## Chronos Backups
+
+Chronos Backups is a multi-loader, multi-version Minecraft backup utility that keeps your world safe without filling your disk. Instead of copying every chunk file verbatim, it intelligently prunes backups to include only the most important parts of your world, dramatically reducing backup size while preserving the areas that actually matter. It supports Fabric, NeoForge, and Forge across an enormous version range, from 1.7.x all the way through the latest releases, making it one of the most broadly compatible backup solutions available for Minecraft servers.
+
+Backups can be triggered manually or run on a schedule, all managed through the in-game `/chronos` command. You get full control over when backups run, how many are retained, and what gets excluded: a configurable file copy blacklist lets you skip server logs, cache folders, and other non-essential data, prefilled with sensible defaults for common server setups. Compression can be set to zip or none, and automatic pruning removes the oldest backups once you exceed your configured limit.
+
+At the heart of Chronos is a custom Rust-native chunk pruning library, built for speed using MCA parsing and NBT processing. Chunks that haven't been played in long enough can be excluded from snapshots based on configurable playtime thresholds, which is how backups stay so small. This does come with a trade-off: very recently explored chunks that haven't yet aged past the pruning threshold may be absent from a given snapshot, a situation that is extremely rare in practice and can only cause loss on restore, never duplication.
+
+Chronos is in active development, with nightly builds on GitHub and stable releases on Modrinth and CurseForge. Configuration is handled through a `chronos.toml` file in your config folder, covering backup intervals, pruning behavior, compression, permissions, and more.
+
+**Language: Java, Rust**<br>
+**Technologies: Minecraft Modding, Fabric, NeoForge, Forge, Native Rust FFI**<br>
+[**GitHub**](https://github.com/MagicJinn/Chronos-Backups), [**Modrinth**](https://modrinth.com/mod/chronos-backups), [**Curseforge**](https://www.curseforge.com/minecraft/mc-mods/chronos-backups)
 
 ## Quantum Things
 
