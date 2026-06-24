@@ -2,7 +2,7 @@
 
 ### Game Developer | Programmer | Game Modder
 
-Aspiring game developer, basically a software dev, technically a webdev. Creator of **MrBeastify**, **SDLS**, **Beacon Aura**, **The Block Keeps Ticking** and **Quantum Things**. I'm an aspiring full-time game developer, and I make game mods and browser extensions in my free time. 1.5 year game development school dropout because it was terrible. Check out the games I made on my [Itch.io](https://magicjinn.itch.io/). I am also a YouTube content creator.
+Aspiring game developer, basically a software dev, technically a webdev. Creator of **MrBeastify**, **SDLS**, **Beacon Aura**, **The Block Keeps Ticking**, **Chronos Backups** and **Quantum Things**. I'm an aspiring full-time game developer, and I make game mods and browser extensions in my free time. 1.5 year game development school dropout because it was terrible. Check out the games I made on my [Itch.io](https://magicjinn.itch.io/). I am also a YouTube content creator.
 
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=MagicJinn&show_icons=true&count_private=true&theme=highcontrast&hide_rank=true)
 
@@ -48,29 +48,21 @@ Sunless Sea Vortex Extension for automatic installs of both BepInEx and JSON mod
 - **Legacy Yacht** - A story mod that makes the massively outclassed Steam Yacht inheritable so it's less terrible. Feature-complete. [**Nexusmods**](https://www.nexusmods.com/sunlesssea/mods/35)
 - **Sacks As A Mascot** - During the Sacks and Snow quest, Mr Sacks is supposed to provide a boost to Engine Power and Fuel Efficiency; due to how the game is coded this bonus is never applied. This mod lets you benefit from it by equipping Mr Sacks as a mascot. [**Nexusmods**](https://www.nexusmods.com/sunlesssea/mods/52)
 
-## Better Pet Teleporting
+## Chronos Backups
 
-Better Pet Teleporting is a Minecraft mod that vastly improves pet teleportation logic so you don't lose them. It supports all pets across all dimensions, ensuring your pets can always find you, even in unloaded chunks or when crossing dimensions. It has automatic support for mods (as long as they inherit the `EntityTameable` class) and randomized teleportation to prevent entity cramming. Feature-complete.
+Chronos Backups is a multi-loader, multi-version Minecraft backup utility that keeps your world safe without filling your disk. Instead of backing up every chunk, it intelligently prunes backups to include only the most important parts of your world, dramatically reducing backup size while preserving the areas that actually matter. A shared core with loader-specific shells lets it run on Fabric, NeoForge, and Forge from 1.7.x through the latest releases, making it the broadest version range of any Minecraft backup mod. The mod is completely serverside, so vanilla clients can still play while the mod is installed.
 
-**Language: Java**  
-**Technologies: Minecraft Modding, Forge**<br>
-[**Modrinth**](https://modrinth.com/mod/better-pet-teleporting), [**Curseforge**](https://www.curseforge.com/minecraft/mc-mods/better-pet-teleporting)
+Backups can be triggered manually or run on a schedule. Backup frequency, along with many other settings, such as a copy-blacklist prefilled with sensible defaults for common server setups, can all be configured. Compression can be set to zip or none, and you can set a maximum number of backups to keep.
 
-## Beacon Aura
+At the heart of Chronos is a custom Rust-native chunk pruning library, built for speed using MCA parsing and NBT processing. Chunks that haven't been played in long enough can be excluded from backups based on configurable playtime thresholds.
 
-Beacon Aura improves beacons by allowing you to *soak* in the beacon's effects while within its range, extending their duration, to be enjoyed after you leave their radius. The strength of the effect buildup and the maximum duration are determined by the beacon's level. The mod also increases the beacon's range by default, as well as allowing you to configure it for yourself. Feature-complete.
+Reliability across more than 100 Minecraft version and loader combinations is backed by a dedicated testing toolchain. A Docker-based `testServers` suite spins up a dedicated server for every supported combination, checking that the mod loads, initializes correctly, and runs a speedtest to verify functionality and performance. GitHub Actions CI cross-compiles native Rust libraries on Linux, Windows, and macOS, merges the artifacts, and builds every variant JAR on each push.
 
-**Language: Java**<br>
-**Technologies: Minecraft Modding, Fabric**<br>
-[**Modrinth**](https://modrinth.com/mod/beacon-aura), [**Curseforge**](https://www.curseforge.com/minecraft/mc-mods/beacon-aura)
+Chronos is in active development, with nightly builds on GitHub and stable releases on Modrinth and CurseForge. Publishing a stable GitHub release automatically uploads all variant JARs to both Modrinth and CurseForge.
 
-## The Block Keeps Ticking
-
-The Block Keeps Ticking is a complete rewrite of Alive World (which is a fork of Presence Not Required) that allows blocks and entities to continue progressing in unloaded chunks, so your farms, furnaces, and passive mobs keep growing and working even when you're far away. The mod supports block entities (furnaces, campfires, brewing stands), crops and stems, nether wart, cocoa beans, tree saplings, growing plants (kelp, bamboo, sugar cane, cactus), dried ghast and sniffer eggs and more. Features include time modes (world time or real time progression), lazy tax settings to slow down simulation, and per-object configuration to enable or disable simulation for specific blocks and entities individually. The mod is completely serverside, so vanilla clients can still play while the mod is installed. Other mods can register custom ticking objects via the API.
-
-**Language: Java**<br>
-**Technologies: Minecraft Modding, Fabric**<br>
-[**Modrinth**](https://modrinth.com/mod/the-block-keeps-ticking), [**Curseforge**](https://www.curseforge.com/minecraft/mc-mods/the-block-keeps-ticking)
+**Language: Java, Rust**<br>
+**Technologies: Minecraft Modding, Fabric, NeoForge, Forge, Native Rust FFI, Docker Integration Testing, GitHub Actions, CI/CD**<br>
+[**Modrinth**](https://modrinth.com/mod/chronos-backups), [**Curseforge**](https://www.curseforge.com/minecraft/mc-mods/chronos-backups)
 
 ## Quantum Things
 
@@ -83,6 +75,30 @@ Beyond new features, Quantum Things addresses numerous critical bugs and perform
 **Language: Java**<br>
 **Technologies: Minecraft Modding, Forge**<br>
 [**Modrinth**](https://modrinth.com/mod/quantum-things), [**Curseforge**](https://www.curseforge.com/minecraft/mc-mods/quantum-things)
+
+## The Block Keeps Ticking
+
+The Block Keeps Ticking is a complete rewrite of Alive World (which is a fork of Presence Not Required) that allows blocks and entities to continue progressing in unloaded chunks, so your farms, furnaces, and passive mobs keep growing and working even when you're far away. The mod supports block entities (furnaces, campfires, brewing stands), crops and stems, nether wart, cocoa beans, tree saplings, growing plants (kelp, bamboo, sugar cane, cactus), dried ghast and sniffer eggs and more. Features include time modes (world time or real time progression), lazy tax settings to slow down simulation, and per-object configuration to enable or disable simulation for specific blocks and entities individually. The mod is completely serverside, so vanilla clients can still play while the mod is installed. Other mods can register custom ticking objects via the API.
+
+**Language: Java**<br>
+**Technologies: Minecraft Modding, Fabric**<br>
+[**Modrinth**](https://modrinth.com/mod/the-block-keeps-ticking), [**Curseforge**](https://www.curseforge.com/minecraft/mc-mods/the-block-keeps-ticking)
+
+## Beacon Aura
+
+Beacon Aura improves beacons by allowing you to *soak* in the beacon's effects while within its range, extending their duration, to be enjoyed after you leave their radius. The strength of the effect buildup and the maximum duration are determined by the beacon's level. The mod also increases the beacon's range by default, as well as allowing you to configure it for yourself. Feature-complete.
+
+**Language: Java**<br>
+**Technologies: Minecraft Modding, Fabric**<br>
+[**Modrinth**](https://modrinth.com/mod/beacon-aura), [**Curseforge**](https://www.curseforge.com/minecraft/mc-mods/beacon-aura)
+
+## Better Pet Teleporting
+
+Better Pet Teleporting is a Minecraft mod that vastly improves pet teleportation logic so you don't lose them. It supports all pets across all dimensions, ensuring your pets can always find you, even in unloaded chunks or when crossing dimensions. It has automatic support for mods (as long as they inherit the `EntityTameable` class) and randomized teleportation to prevent entity cramming. Feature-complete.
+
+**Language: Java**  
+**Technologies: Minecraft Modding, Forge**<br>
+[**Modrinth**](https://modrinth.com/mod/better-pet-teleporting), [**Curseforge**](https://www.curseforge.com/minecraft/mc-mods/better-pet-teleporting)
 
 ## Minor Minecraft Mods
 

@@ -22,30 +22,29 @@
         content="Portfolio of MagicJinn: game development, modding, and software projects.">
     <meta name="twitter:image" content="https://magicjinn.net/assets/catglitch.webp">
     <script type="application/ld+json">
-    {
+        {
         "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "Person",
-                "name": "MagicJinn",
-                "url": "https://magicjinn.net/",
-                "email": "mailto:MagicJinn@MagicJinn.net",
-                "sameAs": [
-                    "https://github.com/MagicJinn",
-                    "https://magicjinn.itch.io/",
-                    "https://youtube.com/@magicjinn",
-                    "https://twitch.tv/magicjinn",
-                    "https://x.com/MagicJinn__",
-                    "https://www.linkedin.com/in/marijn-bogerd-93bb0a2a4/"
-                ]
+            "@graph": [{
+            "@type": "Person",
+            "name": "MagicJinn",
+            "url": "https://magicjinn.net/",
+            "email": "mailto:MagicJinn@MagicJinn.net",
+            "sameAs": [
+            "https://github.com/MagicJinn",
+            "https://magicjinn.itch.io/",
+            "https://youtube.com/@magicjinn",
+            "https://twitch.tv/magicjinn",
+            "https://x.com/MagicJinn__",
+            "https://www.linkedin.com/in/marijn-bogerd-93bb0a2a4/"
+            ]
             },
             {
-                "@type": "WebSite",
-                "name": "MagicJinn",
-                "url": "https://magicjinn.net/"
+            "@type": "WebSite",
+            "name": "MagicJinn",
+            "url": "https://magicjinn.net/"
             }
-        ]
-    }
+            ]
+            }
     </script>
     <link rel="preload" as="image" href="assets/yoshlowqual.webp">
     <link rel="preload" as="image" href="assets/catglitch.webp">
@@ -79,8 +78,8 @@
             <p>Aspiring game developer, basically a software dev, technically a webdev. Creator of
                 <strong>MrBeastify</strong>, <strong>SDLS</strong>, <strong>NO-verflow</strong>, <strong>As Per My Last
                     Card</strong>,
-                <strong>Better Pet Teleporting</strong>, <strong>Beacon Aura</strong>, <strong>The Block Keeps
-                    Ticking</strong> and <strong>Quantum
+                <strong>Beacon Aura</strong>, <strong>The Block Keeps
+                    Ticking</strong>, <strong>Chronos Backups</strong> and <strong>Quantum
                     Things</strong>. I'm an aspiring full-time game developer, and I make game mods and browser
                 extensions in my free time. 1.5 year game development school dropout because it was terrible. Check out
                 the games I made on my <a href="https://magicjinn.itch.io/" target="_blank">Itch.io</a>. I am also a
@@ -164,7 +163,7 @@
                         quirks with VSync and TargetFPS settings. Feature-complete. <strong><a
                                 href="https://www.nexusmods.com/sunlesssea/mods/57"
                                 target="_blank">Nexusmods</a></strong>
-                        </li>
+                    </li>
                     <li><strong>OriginalMainMenu</strong> - Restores the original Sunless Sea main menu background and
                         title card when Zubmariner is installed. Simple and easy to configure. Feature-complete.
                         <strong><a href="https://www.nexusmods.com/sunlesssea/mods/58"
@@ -174,7 +173,7 @@
                         "noob-trap" and makes the legacy actually useful. Feature-complete. <strong><a
                                 href="https://www.nexusmods.com/sunlesssea/mods/56"
                                 target="_blank">Nexusmods</a></strong>
-                        </li>
+                    </li>
                     <li><strong>AllShipsAllSlots</strong> - A lightweight (10KB) mod that adds both Forward and AFT
                         weapon slots to every ship in Sunless Sea. Features user-friendly configuration and
                         compatibility with vanilla and modded ships across all game versions (Steam, Epic, GOG). Serves
@@ -185,59 +184,101 @@
                         inheritable so it's less terrible. Feature-complete. <strong><a
                                 href="https://www.nexusmods.com/sunlesssea/mods/35"
                                 target="_blank">Nexusmods</a></strong>
-                        </li>
-                        <li><strong>Sacks As A Mascot</strong> - During the Sacks and Snow quest, Mr Sacks is supposed
-                            to provide a boost to Engine Power and Fuel Efficiency; due to how the game is coded this
-                            bonus is never applied. This mod lets you benefit from it by equipping Mr Sacks as a mascot.
-                            <strong><a href="https://www.nexusmods.com/sunlesssea/mods/52"
-                                    target="_blank">Nexusmods</a></strong></li>
+                    </li>
+                    <li><strong>Sacks As A Mascot</strong> - During the Sacks and Snow quest, Mr Sacks is supposed
+                        to provide a boost to Engine Power and Fuel Efficiency; due to how the game is coded this
+                        bonus is never applied. This mod lets you benefit from it by equipping Mr Sacks as a mascot.
+                        <strong><a href="https://www.nexusmods.com/sunlesssea/mods/52"
+                                target="_blank">Nexusmods</a></strong></li>
                 </ul>
             </article>
-
-            <article class="project-card feature-complete">
-                <h3>Better Pet Teleporting</h3>
-                <p>Better Pet Teleporting is a Minecraft mod that vastly improves pet teleportation logic so you don't
-                    lose them. It supports all pets across all dimensions, ensuring your pets can always find you, even
-                    in unloaded chunks or when crossing dimensions. It has automatic support for mods (as long as they
-                    inherit the <code>EntityTameable</code> class) and randomized teleportation to prevent entity
-                    cramming. Feature-complete.</p>
+            <article class="project-card">
+                <h3>Chronos Backups</h3>
+                <p>Chronos Backups is a multi-loader, multi-version Minecraft backup utility that keeps your world safe
+                    without filling your disk. Instead of backing up every chunk, it intelligently prunes
+                    backups to include only the most important parts of your world, dramatically reducing backup size
+                    while preserving the areas that actually matter. A shared core with loader-specific
+                    shells lets it run on Fabric, NeoForge, and Forge from 1.7.x through the latest
+                    releases, making it the broadest version range of any Minecraft backup mod. The mod is completely
+                    serverside, so vanilla clients can still play while the mod is installed.</p>
+                <p>Backups can be triggered manually or run on a schedule. Backup frequency, along with many other
+                    settings, such as a copy-blacklist prefilled with sensible defaults for common server
+                    setups, can all be configured. Compression can be set to zip or none, and you can set a maximum
+                    number of backups to keep.</p>
+                <p>At the heart of Chronos is a custom Rust-native chunk pruning library, built for speed using
+                    MCA parsing and NBT processing. Chunks that haven't been played in long enough can be excluded
+                    from backups based on configurable playtime thresholds.</p>
+                <p>Reliability across more than 100 Minecraft version and loader combinations is backed by a dedicated
+                    testing toolchain. A Docker-based <code>testServers</code>
+                    suite spins up a dedicated server for every supported combination,
+                    checking that the mod loads, initializes correctly, and runs a speedtest to verify functionality and
+                    performance. GitHub Actions CI cross-compiles native Rust libraries on Linux, Windows, and
+                    macOS, merges the artifacts, and builds every variant JAR on each push.</p>
+                <p>Chronos is in active development, with nightly builds on GitHub and stable releases on Modrinth
+                    and CurseForge. Publishing a stable GitHub release automatically uploads all variant JARs to both
+                    Modrinth and CurseForge.</p>
+                <div class="project-tech">
+                    <strong>Language:</strong> Java, Rust<br>
+                    <strong>Technologies:</strong> Minecraft Modding, Fabric, NeoForge, Forge, Native Rust FFI, Docker
+                    Integration Testing, GitHub Actions, CI/CD<br>
+                    <strong><a href="https://github.com/MagicJinn/Chronos-Backups" target="_blank">GitHub</a></strong>,
+                    <strong><a href="https://modrinth.com/mod/chronos-backups" target="_blank">Modrinth</a></strong>,
+                    <strong><a href="https://www.curseforge.com/minecraft/mc-mods/chronos-backups"
+                            target="_blank">Curseforge</a></strong>
+                </div>
+            </article>
+            <article class="project-card">
+                <h3>Quantum Things</h3>
+                <p>Quantum Things is a 1.12.2 continuation of Lumien231's Random Things, a
+                    mod that adds a diverse
+                    collection of utility items, blocks, and gameplay enhancements. The goal
+                    of Quantum Things is to provide
+                    continued support for Random Things, including new features, bug and
+                    crash fixes, and compatibility with
+                    other mods, while staying true to the original design goal and intent of
+                    the mod.</p>
+                <p>Quantum Things introduces extensive configurability through an in-game
+                    config menu, allowing players
+                    to customize various aspects of the mod including plant and loot
+                    generation chances, Nature Core
+                    behavior, disabling the Spectre Dimension, and adding new or disabling
+                    existing Divining Rods, with
+                    over 100 new Divining Rods added by default. It also reintroduces
+                    several features from earlier
+                    versions of Random Things, such as Spectre Armor and Biome Painter.</p>
+                <p>Beyond new features, Quantum Things addresses numerous critical bugs and
+                    performance issues from the
+                    original mod, including item duplication exploits, game freezes, various
+                    crash fixes, and
+                    significant performance optimizations for systems like the Spectre
+                    Illuminator, Wireless Redstone,
+                    network messages, and Potion Vaporizer.
+                    The mod maintains full compatibility with the original Random Things
+                    while providing a more stable
+                    and configurable experience.</p>
                 <div class="project-tech">
                     <strong>Language:</strong> Java<br>
                     <strong>Technologies:</strong> Minecraft Modding, Forge<br>
-                    <strong><a href="https://modrinth.com/mod/better-pet-teleporting"
-                            target="_blank">Modrinth</a></strong>, <strong><a
-                            href="https://www.curseforge.com/minecraft/mc-mods/better-pet-teleporting"
+                    <strong><a href="https://modrinth.com/mod/quantum-things" target="_blank">Modrinth</a></strong>,
+                    <strong><a href="https://www.curseforge.com/minecraft/mc-mods/quantum-things"
                             target="_blank">Curseforge</a></strong>
                 </div>
             </article>
-
-            <article class="project-card feature-complete">
-                <h3>Beacon Aura</h3>
-                <p>Beacon Aura improves beacons by allowing you to <em>soak</em> in the beacon's effects while within
-                    its range, extending their duration, to be enjoyed after you leave their radius. The strength of the
-                    effect buildup and the maximum duration are determined by the beacon's level. The mod also increases
-                    the beacon's range by default, as well as allowing you to configure it for yourself.
-                    Feature-complete.</p>
-                <div class="project-tech">
-                    <strong>Language:</strong> Java<br>
-                    <strong>Technologies:</strong> Minecraft Modding, Fabric<br>
-                    <strong><a href="https://modrinth.com/mod/beacon-aura" target="_blank">Modrinth</a></strong>,
-                    <strong><a href="https://www.curseforge.com/minecraft/mc-mods/beacon-aura"
-                            target="_blank">Curseforge</a></strong>
-                </div>
-            </article>
-
             <article class="project-card">
                 <h3>The Block Keeps Ticking</h3>
                 <p>The Block Keeps Ticking is a complete rewrite of Alive World (which is a fork of Presence Not
-                    Required) that allows blocks and entities to continue progressing in unloaded chunks, so your farms,
+                    Required) that allows blocks and entities to continue progressing in unloaded chunks, so your
+                    farms,
                     furnaces, and passive mobs keep growing and working even when you're far away. The mod supports
                     block entities (furnaces, campfires, brewing stands), crops and stems, nether wart, cocoa beans,
-                    tree saplings, growing plants (kelp, bamboo, sugar cane, cactus), dried ghast and sniffer eggs and
+                    tree saplings, growing plants (kelp, bamboo, sugar cane, cactus), dried ghast and sniffer eggs
+                    and
                     more.
-                    Features include time modes (world time or real time progression), lazy tax settings to slow down
+                    Features include time modes (world time or real time progression), lazy tax settings to slow
+                    down
                     simulation, and per-object configuration to enable or disable simulation for specific blocks and
-                    entities individually. The mod is completely serverside, so vanilla clients can still play while the
+                    entities individually. The mod is completely serverside, so vanilla clients can still play while
+                    the
                     mod is installed. Other mods can register
                     custom ticking objects via the API.</p>
                 <div class="project-tech">
@@ -250,32 +291,43 @@
                 </div>
             </article>
 
-            <article class="project-card">
-                <h3>Quantum Things</h3>
-                <p>Quantum Things is a 1.12.2 continuation of Lumien231's Random Things, a mod that adds a diverse
-                collection of utility items, blocks, and gameplay enhancements. The goal of Quantum Things is to provide
-                continued support for Random Things, including new features, bug and crash fixes, and compatibility with
-                other mods, while staying true to the original design goal and intent of the mod.</p>
-                <p>Quantum Things introduces extensive configurability through an in-game config menu, allowing players
-                    to customize various aspects of the mod including plant and loot generation chances, Nature Core
-                    behavior, disabling the Spectre Dimension, and adding new or disabling existing Divining Rods, with
-                    over 100 new Divining Rods added by default. It also reintroduces several features from earlier
-                    versions of Random Things, such as Spectre Armor and Biome Painter.</p>
-                <p>Beyond new features, Quantum Things addresses numerous critical bugs and performance issues from the
-                    original mod, including item duplication exploits, game freezes, various crash fixes, and
-                    significant performance optimizations for systems like the Spectre Illuminator, Wireless Redstone,
-                    network messages, and Potion Vaporizer.
-                    The mod maintains full compatibility with the original Random Things while providing a more stable
-                    and configurable experience.</p>
+            <article class="project-card feature-complete">
+                <h3>Beacon Aura</h3>
+                <p>Beacon Aura improves beacons by allowing you to <em>soak</em> in the beacon's effects while
+                    within
+                    its range, extending their duration, to be enjoyed after you leave their radius. The strength of
+                    the
+                    effect buildup and the maximum duration are determined by the beacon's level. The mod also
+                    increases
+                    the beacon's range by default, as well as allowing you to configure it for yourself.
+                    Feature-complete.</p>
                 <div class="project-tech">
                     <strong>Language:</strong> Java<br>
-                    <strong>Technologies:</strong> Minecraft Modding, Forge<br>
-                    <strong><a href="https://modrinth.com/mod/quantum-things" target="_blank">Modrinth</a></strong>,
-                    <strong><a href="https://www.curseforge.com/minecraft/mc-mods/quantum-things"
+                    <strong>Technologies:</strong> Minecraft Modding, Fabric<br>
+                    <strong><a href="https://modrinth.com/mod/beacon-aura" target="_blank">Modrinth</a></strong>,
+                    <strong><a href="https://www.curseforge.com/minecraft/mc-mods/beacon-aura"
                             target="_blank">Curseforge</a></strong>
                 </div>
             </article>
-
+            <article class="project-card feature-complete">
+                <h3>Better Pet Teleporting</h3>
+                <p>Better Pet Teleporting is a Minecraft mod that vastly improves pet teleportation logic so you
+                    don't
+                    lose them. It supports all pets across all dimensions, ensuring your pets can always find you,
+                    even
+                    in unloaded chunks or when crossing dimensions. It has automatic support for mods (as long as
+                    they
+                    inherit the <code>EntityTameable</code> class) and randomized teleportation to prevent entity
+                    cramming. Feature-complete.</p>
+                <div class="project-tech">
+                    <strong>Language:</strong> Java<br>
+                    <strong>Technologies:</strong> Minecraft Modding, Forge<br>
+                    <strong><a href="https://modrinth.com/mod/better-pet-teleporting"
+                            target="_blank">Modrinth</a></strong>, <strong><a
+                            href="https://www.curseforge.com/minecraft/mc-mods/better-pet-teleporting"
+                            target="_blank">Curseforge</a></strong>
+                </div>
+            </article>
             <article class="project-card feature-complete">
                 <h3>Minor Minecraft Mods</h3>
                 <ul class="mod-list">
