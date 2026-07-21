@@ -13,6 +13,7 @@ function joinLinks(links: Link[], style: "strong-a" | "a-strong"): string {
   return links.map((l) => linkHtml(l, style)).join(", ");
 }
 
+function renderTech(project: Project): string {
   const lines: string[] = [];
   if (project.language) {
     lines.push(`<strong>Language:</strong> ${escapePlain(project.language)}`);
