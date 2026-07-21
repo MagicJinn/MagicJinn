@@ -1,0 +1,15 @@
+{
+  "name": "magicjinn-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsx scripts/sync-projects.ts",
+    "build:dry": "tsx scripts/sync-projects.ts --dry-run",
+    "preview": "tsx scripts/sync-projects.ts && npx --yes serve dist"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
