@@ -6,7 +6,7 @@
 
 Aspiring game developer, basically a software dev, technically a webdev. Creator of **MrBeastify**, **SDLS**, **Beacon Aura**, **The Block Keeps Ticking**, **Chronos Backups** and **Quantum Things**. I'm an aspiring full-time game developer, and I make game mods and browser extensions in my free time. 1.5 year game development school dropout because it was terrible. Check out the games I made on my [Itch.io](https://magicjinn.itch.io/). I am also a YouTube content creator.
 
-![Github Stats](https://github-readme-stats.vercel.app/api?username=MagicJinn&show_icons=true&count_private=true&theme=highcontrast&hide_rank=true)
+![Github Stats](https://github-stats-extended.vercel.app/api?username=MagicJinn&show_icons=true&count_private=true&theme=highcontrast&hide_rank=false)
 
 ## I am skilled at
 
