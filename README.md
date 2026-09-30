@@ -117,6 +117,7 @@ Better Pet Teleporting is a Minecraft mod that vastly improves pet teleportation
 [//]: # (html: group, feature-complete)
 
 - **Portalfarm Despawn Fix** - A micro-mod for Fabric that fixes a common issue where mobs transported through nether portals on multiplayer servers would immediately despawn when there are players in the destination dimension. This mod prevents mobs from despawning in portal farms by setting an upper bound to the despawning check. It is named this because it fixes a mechanic most commonly seen when using portal based farms. Feature-complete. [**Modrinth**](https://modrinth.com/mod/portalfarm-despawn-fix), [**Curseforge**](https://www.curseforge.com/minecraft/mc-mods/portalfarm-despawn-fix)
+- **Elytraswap Serverside** - Automatically swaps between your best elytra and chestplate when you take off or land, entirely on the server so players do not need a client mod. Feature-complete. [**Modrinth**](https://modrinth.com/mod/elytraswap-serverside), [**Curseforge**](https://www.curseforge.com/minecraft/mc-mods/elytraswap-serverside)
 
 ## NO-verflow
 [//]: # (html: project, feature-complete)
