@@ -98,7 +98,7 @@ Beyond new features, Quantum Things addresses numerous critical bugs and perform
 
 The Block Keeps Ticking is a complete rewrite of Alive World (which is a fork of Presence Not Required) that allows blocks and entities to continue progressing in unloaded chunks, so your farms, furnaces, and passive mobs keep growing and working even when you're far away. The mod supports block entities (furnaces, campfires, brewing stands), crops and stems, nether wart, cocoa beans, tree saplings, leaves, farmland, growing plants (kelp, bamboo, sugar cane, cactus), budding amethyst, cauldrons, dried ghast and sniffer eggs and more. Features include time modes (world time or real time progression), lazy tax settings to slow down simulation, and per-object configuration to enable or disable simulation for specific blocks and entities individually. The mod is completely serverside, so vanilla clients can still play while the mod is installed. Other mods can register custom ticking objects via the API.
 
-The mod ships for both Fabric and NeoForge, and recent updates added a `/tbkt` command to simulate blocks or whole chunks on demand A deterministic in-game self-test suite drives the supported blocks through `/tbkt simulate`, and CI runs it on both loaders to catch regressions.
+The mod ships for both Fabric and NeoForge, and recent updates added a `/tbkt` command to simulate blocks or whole chunks on demand. A deterministic in-game self-test suite drives the supported blocks through `/tbkt simulate`, and CI runs it on both loaders to catch regressions.
 
 **Language: Java**<br>
 **Technologies: Minecraft Modding, Fabric, NeoForge**<br>
@@ -113,6 +113,16 @@ Polymer Patch for Artifacts is a companion patch that uses Polymer to run Artifa
 **Language: Java**<br>
 **Technologies: Minecraft Modding, Fabric, Polymer**<br>
 [**Modrinth**](https://modrinth.com/mod/polymer-patch-for-artifacts), [**Curseforge**](https://www.curseforge.com/minecraft/mc-mods/polymer-patch-for-artifacts)
+
+## HT's TreeChop Recontinued
+
+[//]: # (html: project)
+
+A recontinued fork of hammertater's TreeChop for modern Minecraft (Fabric and NeoForge). Chop down a tree by repeatedly breaking a single log, where bigger trees need more chops. It works on mushrooms and fungi, breaks leaves intelligently, supports most modded trees, and has configurable linear or logarithmic chop counting. On Fabric servers it can run with Polymer so vanilla clients can join, and Jade shows tree size and the chops needed to fell it.
+
+**Language: Java**<br>
+**Technologies: Minecraft Modding, Fabric, NeoForge, Polymer**<br>
+[**Modrinth**](https://modrinth.com/mod/hts-treechop-recontinued), [**Curseforge**](https://www.curseforge.com/minecraft/mc-mods/hts-treechop-recontinued-polymer)
 
 ## Beacon Aura
 
